@@ -1,3 +1,4 @@
+package com.ariskk.statefun3
 
 class E2ETest extends IntetrationTestSupport:
 

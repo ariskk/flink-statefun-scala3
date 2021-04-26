@@ -1,3 +1,5 @@
+package com.ariskk.statefun3
+
 import io.circe.generic.semiauto._
 import io.circe.Codec
 

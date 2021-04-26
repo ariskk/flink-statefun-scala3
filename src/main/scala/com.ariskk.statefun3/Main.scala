@@ -1,3 +1,5 @@
+package com.ariskk.statefun3
+
 import scala.jdk.FutureConverters._
 
 import org.apache.flink.statefun.sdk.java.StatefulFunctionSpec
@@ -18,7 +20,7 @@ def buildServer = {
 
   val fn = TrackingReducerFn.apply
   val spec = StatefulFunctionSpec
-    .builder(fn.typeName)
+    .builder(fn.fnTypeName)
     .withValueSpec(fn.valueSpec)
     .withSupplier(() => fn)
     .build()

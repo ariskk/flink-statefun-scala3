@@ -1,3 +1,5 @@
+package com.ariskk.statefun3
+
 import org.apache.flink.statefun.sdk.java.Context
 import org.apache.flink.statefun.sdk.java.message.Message
 

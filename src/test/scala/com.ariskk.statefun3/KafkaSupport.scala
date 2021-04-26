@@ -1,3 +1,4 @@
+package com.ariskk.statefun3
 
 import java.util.Properties
 import java.time.Duration

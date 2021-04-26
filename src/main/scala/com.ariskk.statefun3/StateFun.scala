@@ -1,3 +1,5 @@
+package com.ariskk.statefun3
+
 import java.util.concurrent.CompletableFuture
 import scala.concurrent.Future
 import scala.jdk.OptionConverters._
@@ -21,7 +23,7 @@ abstract class StateFun[
 
   def functionName: String
 
-  def typeName: TypeName =
+  def fnTypeName: TypeName =
     TypeName.typeNameFromString(s"${ns.value}.fn/$functionName")
 
   def stateType = Typer[State].giveType

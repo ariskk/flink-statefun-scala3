@@ -1,5 +1,4 @@
-import scala.quoted
-import scala.quoted._
+package com.ariskk.statefun3
 
 import org.apache.flink.statefun.sdk.java.types.Type
 import org.apache.flink.statefun.sdk.java.types.SimpleType

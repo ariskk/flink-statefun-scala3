@@ -1,3 +1,5 @@
+package com.ariskk.statefun3
+
 import munit.FunSuite
 import org.testcontainers.containers.Network
 import org.testcontainers.Testcontainers

@@ -1,4 +1,4 @@
-val scala3Version = "3.0.0-RC2"
+val scala3Version = "3.0.0-RC3"
 
 lazy val root = project
   .in(file("."))
@@ -10,11 +10,11 @@ lazy val root = project
 
     libraryDependencies ++= Seq(
       "org.apache.flink" % "statefun-sdk-java" % "3.0.0",
-      "io.circe" %% "circe-core" % "0.14.0-M5",
-      "io.circe" %% "circe-parser" % "0.14.0-M5",
-      "io.circe" %% "circe-generic" % "0.14.0-M5",
+      "io.circe" %% "circe-core" % "0.14.0-M6",
+      "io.circe" %% "circe-parser" % "0.14.0-M6",
+      "io.circe" %% "circe-generic" % "0.14.0-M6",
       "io.undertow" % "undertow-core" % "2.2.7.Final",
-      "dev.zio" %% "zio" % "1.0.6",
+      "dev.zio" %% "zio" % "1.0.7",
       "org.apache.kafka" % "kafka-clients" % "2.8.0",
       // Testing
       "org.testcontainers" % "testcontainers" % "1.15.3" % Test,
